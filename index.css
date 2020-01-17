@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+}
+
+h1{
+    z-index: 101;
+    line-height: 50px;
+    color: cyan;
+}
+
+.div1{
+    text-align: center;
+    position: absolute;
+    z-index: 100;
+    background-color: rgba(25, 0, 139, 0.486);
+}
+
+.div1 a{
+    line-height: 200px;
+    font-size: 30px;
+    color: cyan;
+    text-decoration: none;
+}
+
+.vidbg {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%; 
+    overflow: hidden;
+  }
+  .vidbg video {
+    min-width: 100%; 
+    min-height: 100%; 
+    max-width: screen;
+    max-height: screen;
+    width: auto;
+    height: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    zoom: 0.01;
+  }
